@@ -92,6 +92,7 @@ a {
     position: absolute;
     left: 45%;
     top: 44%;
+    transition: 0.5s;
 }
 
 .cover1-btn:hover {
