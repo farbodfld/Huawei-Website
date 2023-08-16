@@ -94,6 +94,11 @@ a {
     top: 44%;
 }
 
+.cover1-btn:hover {
+    background-color: #c7000b;
+    color: white;
+}
+
 .cover1-btn span {
     margin: 30px;
     font-size: 18px;
