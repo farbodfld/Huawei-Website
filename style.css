@@ -98,3 +98,25 @@ a {
     margin: 30px;
     font-size: 18px;
 }
+
+
+/* What's New Section */
+.new {
+    margin-top: 60px;
+}
+
+.new .title {
+    text-align: center;
+    font-size: 27px;
+    color: #333333;
+}
+
+.new .border {
+    width: 4%;
+    height: 2px;
+    background-color: #c7000b;
+    position: absolute;
+    left: 63%;
+    margin-left: -15%;
+    margin-top: 5px;
+}
