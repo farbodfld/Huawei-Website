@@ -40,10 +40,12 @@ a {
 
 /* Header */
 .header {
+    background-color: white;
     margin-top: 20px;
     position: sticky;
     width: 100%;
     top: 0;
+    z-index: 10;
 }
 
 .logo-left {
@@ -75,4 +77,24 @@ a {
 
 .header-right a svg {
     margin-left: 25px;
+}
+
+
+/* Cover Section */
+.cover {
+    margin-top: 25px;
+    position: relative;
+}
+
+.cover1-btn {
+    border: 1px solid #333333;
+    padding: 10px 15px;
+    position: absolute;
+    left: 45%;
+    top: 44%;
+}
+
+.cover1-btn span {
+    margin: 30px;
+    font-size: 18px;
 }
