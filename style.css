@@ -111,6 +111,7 @@ a {
     margin-top: 60px;
 }
 
+/* title section */
 .new .title {
     text-align: center;
     font-size: 27px;
@@ -125,4 +126,62 @@ a {
     left: 63%;
     margin-left: -15%;
     margin-top: 5px;
+}
+
+/* card box */
+.card-box {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/* long-card(s) */
+.card-box .long-card {
+    display: inline-block;
+    width: 73%;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-box .long-card .caption {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    transition: 0.7s;
+}
+
+.card-box .long-card a {
+    width: 100%;
+}
+
+.card-box .long-card img {
+    transition: 0.5s;
+}
+
+.card-box .long-card:hover img{
+    transform: scale(1.1);
+}
+
+.card-box .long-card:hover .caption {
+    top: 60%;
+}
+
+.card-box .long-card:hover .mask {
+    background: linear-gradient(rgba(153, 34, 34, 0.808) 10%, rgba(17, 180, 33, 0.694) 70%);
+}
+
+#selected {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.mask {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 70%);
+    top: auto;
+    bottom: 5px;
 }
