@@ -9,6 +9,8 @@ a {
     color: inherit;
 }
 
+
+/* Black-Header Style */
 .black-header {
     text-align: right;
     background-color: #111111;
@@ -33,4 +35,44 @@ a {
 
 .black-header #selected-link {
     margin-right: 70px;
+}
+
+
+/* Header */
+.header {
+    margin-top: 20px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.logo-left {
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    vertical-align: middle;
+}
+
+.header-content {
+    text-align: center;
+    display: inline-block;
+    width: 74%;
+    vertical-align: middle;
+}
+
+.header-content a {
+    margin-right: 30px;
+    color: #333333;
+    font-size: 17px;
+}
+
+.header-right {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.header-right a svg {
+    margin-left: 25px;
 }
