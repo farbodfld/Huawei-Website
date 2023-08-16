@@ -9,28 +9,28 @@ a {
     color: inherit;
 }
 
-.header {
+.black-header {
     text-align: right;
     background-color: #111111;
     color: #ccc;
     padding: 3px 15px;
 }
 
-.header a {
+.black-header a {
     margin-right: 25px;
     font-size: 13px;
 }
 
-.header svg {
+.black-header svg {
     margin-right: 5px;
     vertical-align: middle;
 }
 
-.header span {
+.black-header span {
     margin-right: 2px;
     vertical-align: middle;
 }
 
-.header #selected-link {
+.black-header #selected-link {
     margin-right: 70px;
 }
