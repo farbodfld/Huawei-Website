@@ -105,6 +105,16 @@ a {
     font-size: 18px;
 }
 
+#second-cover {
+    left: 69%;
+    top: 58%;
+    border: 1px solid #fff;
+}
+
+#text-style {
+    color: #fff;
+}
+
 
 /* What's New Section */
 .new {
