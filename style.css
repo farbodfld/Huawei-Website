@@ -128,8 +128,10 @@ a {
     margin-top: 5px;
 }
 
+
 /* card box */
 .card-box {
+    text-align: center;
     width: 80%;
     margin: auto;
     margin-top: 60px;
@@ -138,7 +140,7 @@ a {
 /* long-card(s) */
 .card-box .long-card {
     display: inline-block;
-    width: 73%;
+    width: 53.5%;
     vertical-align: top;
     position: relative;
     overflow: hidden;
@@ -146,8 +148,8 @@ a {
 
 .card-box .long-card .caption {
     position: absolute;
-    top: 80%;
-    left: 5%;
+    top: 75%;
+    left: 3%;
     transition: 0.7s;
 }
 
@@ -159,7 +161,7 @@ a {
     transition: 0.5s;
 }
 
-.card-box .long-card:hover img{
+.card-box .long-card:hover img {
     transform: scale(1.1);
 }
 
@@ -167,11 +169,16 @@ a {
     top: 60%;
 }
 
+.card-box .long-card:hover .learn-more {
+    top: 88%;
+}
+
 .card-box .long-card:hover .mask {
     background: linear-gradient(rgba(153, 34, 34, 0.808) 10%, rgba(17, 180, 33, 0.694) 70%);
 }
 
 #selected {
+    text-align: left;
     color: #fff;
     margin-bottom: 15px;
     font-size: 22px;
@@ -184,4 +191,74 @@ a {
     background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 70%);
     top: auto;
     bottom: 5px;
+}
+
+.learn-more {
+    text-align: left;
+    margin-left: 25px;
+    position: absolute;
+    top: 100%;
+    transition: 0.7s;
+}
+
+.learn-more-title {
+    vertical-align: middle;
+    color: #fff;
+    font-size: 22px;
+}
+
+.learn-more-chevron {
+    vertical-align: middle;
+    color: #c7000b;
+}
+
+#select-long {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+/* short-card(s) */
+.short-card {
+    display: inline-block;
+    width: 25.8%;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+}
+
+#selected-short-card {
+    margin-left: 15px;
+}
+
+#select-short {
+    margin-top: 15px;
+    width: 26%;
+}
+
+.short-card a {
+    width: 100%;
+}
+
+.short-caption {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    transition: 0.7s;
+}
+
+.card-box .short-card img {
+    transition: 0.5s;
+}
+
+.card-box .short-card:hover img {
+    transform: scale(1.1);
+}
+
+.card-box .short-card:hover .short-caption {
+    top: 50%;
+}
+
+.card-box .short-card:hover .learn-more {
+    top: 86%;
 }
