@@ -247,6 +247,10 @@ a {
     transition: 0.7s;
 }
 
+.selected-short-caption {
+    top: 50%;
+}
+
 .card-box .short-card img {
     transition: 0.5s;
 }
@@ -259,6 +263,20 @@ a {
     top: 50%;
 }
 
+.card-box .short-card:hover .selected-short-caption {
+    top: 35%;
+}
+
 .card-box .short-card:hover .learn-more {
     top: 86%;
+}
+
+.select-third-short {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 26.3%;
+}
+
+#selected-third-row-card {
+    margin-left: 0;
 }
