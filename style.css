@@ -413,3 +413,8 @@ a {
     padding: 10px 30px;
     margin-right: 30px;
 }
+
+.news-btn:hover {
+    background-color: #c7000b;
+    color: #fff;
+}
