@@ -479,13 +479,13 @@ a {
 }
 
 .section h4 {
-    /* margin: 10px 15px; */
     margin-bottom: 30px;
 }
 
 .section a {
     display: block;
     margin: 10px 0;
+    color: #666666;
 }
 
 #selected-link svg {
