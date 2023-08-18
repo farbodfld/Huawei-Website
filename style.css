@@ -461,3 +461,62 @@ a {
     width: 87%;
     border: none;
 }
+
+
+/* footer content section */
+.footer-content {
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid #595757;
+}
+
+.section {
+    display: inline-block;
+    width: 19%;
+    vertical-align: top;
+    padding: 10px 0;
+    margin: 40px 0;
+}
+
+.section h4 {
+    /* margin: 10px 15px; */
+    margin-bottom: 30px;
+}
+
+.section a {
+    display: block;
+    margin: 10px 0;
+}
+
+#selected-link svg {
+    vertical-align: middle;
+}
+
+.bottom {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.links {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.links a {
+    margin: 0 10px;
+    color: #666666;
+}
+
+.social-media {
+    text-align: right;
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.social-media svg {
+    margin: 0 10px;
+    color: #666666;
+}
